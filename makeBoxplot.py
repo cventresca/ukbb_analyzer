@@ -175,35 +175,3 @@ for var in ANOVA_TODO:
         path1=#REDACTED PATH
         path2=#REDACTED PATH
         shutil.move(path1,path2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-tips = sns.load_dataset("tips")
-#axs2 = plt.subplot(grid[0, 5:6])
-sns.boxplot(x="day", y="total_bill",
-        hue="smoker", palette=["k", "gray"],
-        data=tips)#,ax=axs2)
-#print(tips)
-print(tips)
-plt.show()
-'''
-#plt.suptitle(indep[:indep.find('and')]+'-'+indep[indep.find('and')+3:],fontsize=18)
-#dd=pd.melt(data,id_vars=['sex'],value_vars=["type"],var_name='types')
-#print(dd)
