@@ -1,7 +1,5 @@
 import os
-os.environ["R_HOME"] = "C:\Program Files\R\R-4.2.2"
-#os.environ['R_USER'] = 'C:/Program Files/Python/Lib/site-packages/rpy2'
-#os.environ["PATH"] = "C:\Program Files\R\R-4.2.2\bin\x64"+";"+os.environ["PATH"]
+os.environ["R_HOME"] = #REDACTED PATH
 import numpy as np
 import statsmodels.formula.api as smf
 from linearmodels.iv import IV2SLS
