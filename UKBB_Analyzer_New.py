@@ -287,8 +287,8 @@ def main():
         for j in ANOVA_TODO[var]:
             #print(j)
             #ANOVA(dpnonOHCnonBin,dep = nonbinary_target, indep=[var,'sex'], oneWay=False, followUp=True, oneVsOther={var:j},num=tempnum)
-            path1=Path("C:/Users/colev/OneDrive/Desktop/ukbb_analyzer/SRH"+str(tempnum)+".txt")
-            path2=Path("C:/Users/colev/OneDrive/Desktop/ukbb_analyzer/SRHResults/"+var+"_"+str(j)+".txt")
+            path1=#REDACTED PATH
+            path2=#REDACTED PATH
             shutil.move(path1,path2)  
             tempnum+=1
     '''
@@ -512,8 +512,8 @@ def main():
                     #os.system("cp mediation.txt mediationAnalysisResults/"+indep+"+"+mediator+"~GAD7_1: "+s+"-"+str(cutoff)+".txt")
                     #os.system("rm mediation.txt")
 
-                    path1=Path("C:/Users/colev/OneDrive/Desktop/ukbb_analyzer/mediation.txt")
-                    path2=Path("C:/Users/colev/OneDrive/Desktop/ukbb_analyzer/mediationAnalysisResults/"+s+"/"+str(cutoff)+"/("+indep+")("+mediator+"),GAD7_1... "+s+"-"+str(cutoff)+".txt")
+                    path1=#REDACTED PATH
+                    path2=#REDACTED PATH
                     shutil.move(path1,path2)
     '''
 
@@ -553,8 +553,8 @@ def main():
                 file.close()
                 os.system("Rscript mediationAnalysis.R "+indep+" "+mediator+" GAD7_1 "+"Ever.addicted.to.any.substance.or.behaviour_1+Age.at.recruitment+Average.total.household.income.before.tax_1+Average.total.household.income.before.tax_2+Average.total.household.income.before.tax_3+Average.total.household.income.before.tax_4+Townsend.deprivation.index.at.recruitment")
 
-                path1=Path("C:/Users/colev/OneDrive/Desktop/ukbb_analyzer/mediation.txt")
-                path2=Path("C:/Users/colev/OneDrive/Desktop/ukbb_analyzer/mediationAnalysisResults/("+indep+")("+mediator+"),GAD7_1... "+s+"-"+str(cutoff)+".txt")
+                path1=#REDACTED PATH
+                path2=#REDACTED PATH
                 shutil.move(path1,path2)   
     '''
 
