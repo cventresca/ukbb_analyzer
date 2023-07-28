@@ -172,8 +172,8 @@ for var in ANOVA_TODO:
     #print(var)
     for j in ANOVA_TODO[var]:
         ANOVA(dpnonOHCnonBin=dpnonOHCnonBin, dep = nonbinary_target, indep=[var], one_v_rest=j)
-        path1=Path('C:/Users/colev/OneDrive/Desktop/ukbb_analyzer/testBoxPlot1.png')
-        path2=Path('C:/Users/colev/OneDrive/Desktop/ukbb_analyzer/ANOVA_finPlots/'+relabel(var[:var.find('_')+1]+SNPs[j][0]+'_'+var[var.find('_')+1:]+'_'+SNPs[j][1])+'.png')
+        path1=#REDACTED PATH
+        path2=#REDACTED PATH
         shutil.move(path1,path2)
 
 
